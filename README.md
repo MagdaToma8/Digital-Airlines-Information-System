@@ -20,7 +20,8 @@ docker exec -it mongodb mongoimport --db=airlines --collection=bookings --file=b
 Web Service – Endpoints Απλού χρήστη
 Signup():
 Δημιουργείται ένας νέος χρήστης στο σύστημα με την μέθοδο POST. Τα στοιχεία του χρήστη που απαιτούνται για το signup θα δοθούν σε ένα json αρχείο της μορφής:
- 
+ ![image](https://github.com/MagdaToma8/YpoxreotikiErgasia23_e20160_Tomazani_Maria-Magdalini/assets/128919446/19692a78-b08d-4328-9cfe-7900458eb167)
+
 Σε περίπτωση που έχει ξεχαστεί κάποιο στοιχείο, το πρόγραμμα θα ενημερώσει τον χρήστη για ελλιπείς στοιχεία (“Information incomplete”).
 Αν υπάρχει χρήστης με το ίδιο email ή username, τότε θα εμφανιστεί το κατάλληλο μήνυμα λάθους.
  
