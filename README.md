@@ -22,6 +22,7 @@ docker exec -it mongodb mongoimport --db=airlines --collection=flights --file=fl
 docker exec -it mongodb mongoimport --db=airlines --collection=bookings --file=bookings.json
 Web Service – Endpoints Απλού χρήστη
 
+
 Signup():
 
 Δημιουργείται ένας νέος χρήστης στο σύστημα με την μέθοδο POST. Τα στοιχεία του χρήστη που απαιτούνται για το signup θα δοθούν σε ένα json αρχείο της μορφής:
@@ -35,6 +36,7 @@ Signup():
 
 
  ![image](https://github.com/MagdaToma8/YpoxreotikiErgasia23_e20160_Tomazani_Maria-Magdalini/assets/128919446/4036762a-f4bd-4684-a052-c47ca7a7e644)
+
 
 
 Login()
@@ -53,9 +55,11 @@ Login()
  ![image](https://github.com/MagdaToma8/YpoxreotikiErgasia23_e20160_Tomazani_Maria-Magdalini/assets/128919446/622f61bd-486c-4e45-8e9b-43c38731b385)
 
 
+
 Logout()
 
 Ο χρήστης με την μέθοδο POST κάνει logout από το σύστημα και τελειώνει το session του.
+
 
 searchFlights() 
 
@@ -76,6 +80,7 @@ searchFlights()
 
 ![image](https://github.com/MagdaToma8/YpoxreotikiErgasia23_e20160_Tomazani_Maria-Magdalini/assets/128919446/f38dd5ba-2897-490c-b414-6b320a83bb99)
 
+
  
 getFlightDet()
 
@@ -85,6 +90,7 @@ getFlightDet()
 ![image](https://github.com/MagdaToma8/YpoxreotikiErgasia23_e20160_Tomazani_Maria-Magdalini/assets/128919446/2d397b4e-08b2-42fa-ba82-aa97ee16e465)
 
  
+
 
 bookTick()
 
@@ -111,6 +117,7 @@ bookTick()
  
 Βλέπουμε ότι δεν υπάρχει χρήστης που να ταιριάζουν αυτά τα στοιχεία ( αντί για το επίθετο ‘’Ravanopoulou’’ έχουμε το επίθετο ‘’Tomazani’’).
 
+
 getBookings()
 
 H μέθοδος που χρησιμοποιείται εδώ είναι η GET. Ο χρήστης εισάγει το email του και λαμβάνει όλες τις κρατήσεις που έχει κάνει.
@@ -122,6 +129,7 @@ H μέθοδος που χρησιμοποιείται εδώ είναι η GET.
 
 Πάλι γίνεται έλεγχος για το άμα αυτό το email ανήκει σε κάποιον καταχωρημένο χρήστη.
 
+
 getBookingDet()
 
 Εδώ πάλι χρησιμοποιείται η μέθοδος GET. Ο χρήστης θέλει να εμφανιστούν τα στοιχεία της κράτησης του. Αυτό πραγματοποιείται βάζοντας στο URL το μοναδικό _id της κράτησης.
@@ -130,6 +138,7 @@ getBookingDet()
 ![image](https://github.com/MagdaToma8/YpoxreotikiErgasia23_e20160_Tomazani_Maria-Magdalini/assets/128919446/3d533c8b-abc9-49fd-8512-1228b0782d5e)
 
  
+
 
 deleteBooking()
 
@@ -149,6 +158,7 @@ deleteBooking()
 
 
 
+
 deleteUser()
 
 Γίνεται διαγραφή του χρήστη από το σύστημα με την μέθοδο DELETE. Ο χρήστης εισάγει το email και το password του και διαγράφεται από το σύστημα. Οι κρατήσεις εισιτηρίων δεν επηρεάζονται.
@@ -163,6 +173,7 @@ deleteUser()
 Web service – Endpoints διαχειριστή 
 
 Ένας απλός χρήστης δεν μπορεί να έχει πρόσβαση σε καμία υπηρεσία που αφορά τους διαχειριστές.
+
 
 createNewFlight()
 
@@ -181,6 +192,7 @@ createNewFlight()
 
 
 
+
 updateValue()
 
 Ο διαχειριστής μπορεί να ανανεώσει τις τιμές των εισιτηρίων βάζοντας στο URL τον μοναδικό κωδικό πτήσης (_id).
@@ -191,6 +203,7 @@ updateValue()
 
 
 Γίνεται επίσης έλεγχος για τις τιμές να είναι >= 0. 
+
 
 deleteFlight()
 
@@ -209,6 +222,7 @@ deleteFlight()
 
 
 
+
  
 searchFlights()
 
@@ -223,6 +237,7 @@ searchFlights()
 
 
 ![image](https://github.com/MagdaToma8/YpoxreotikiErgasia23_e20160_Tomazani_Maria-Magdalini/assets/128919446/c408aa95-27bb-4ad7-a1d1-a5ee62bdf773)
+
 
 
 
