@@ -2,9 +2,11 @@
 Digital Airlines Information System
 
 Περιγραφή της Εφαρμογής
+
 Υλοποιήθηκε ένα web service με χρήση Python και του Microframework Flask, το οποίο συνδέεται με ένα container της MongoDB και δίνει την δυνατότητα στους χρήστες να εκτελέσουν τις λειτουργίες που θα δούμε στην συνέχεια.
 
 Containerize του Web service 
+
 Αρχικά για να γίνει το containerization χρειαζόμαστε στο app.py εγκατεστημένα τα:
 •	Python3 
 •	Τις βιβλιοθήκες python, flask και pymongo
