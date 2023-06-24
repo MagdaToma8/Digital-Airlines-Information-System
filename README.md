@@ -8,18 +8,32 @@ Digital Airlines Information System
 Containerize του Web service 
 
 Αρχικά για να γίνει το containerization χρειαζόμαστε στο app.py εγκατεστημένα τα:
+
 •	Python3 
+
 •	Τις βιβλιοθήκες python, flask και pymongo
+
 Δημιουργούμε το Dockerfile και στην συνέχεια δημιουργούμε το αρχείο docker-compose.yml, το οποίο συνδέει τα container web service και MongoDB ώστε να τρέχουν μαζί.
+
 Στο terminal γράφουμε τη παρακάτω εντολή για να εισάγουμε τα users/flights/bookings.json στις collections users/flights/bookings της βάσης airlines.
+
 Αρχικά κάνουμε copy τα δεδομένα από τον host στο container:
+
 docker cp users.json mongodb:/users.json
+
 docker cp flights.json mongodb:/flights.json
+
 docker cp bookings.json mongodb:/bookings.json
+
 Έπειτα εκτελούμε την παρακάτω εντολή για να κάνουμε import στη airlines τα 3 αρχεία.
+
 docker exec -it mongodb mongoimport --db=airlines --collection=users --file=users.json
+
 docker exec -it mongodb mongoimport --db=airlines --collection=flights --file=flights.json
+
 docker exec -it mongodb mongoimport --db=airlines --collection=bookings --file=bookings.json
+
+
 Web Service – Endpoints Απλού χρήστη
 
 
