@@ -1,0 +1,19 @@
+{
+    "airportOfOrigin": "ATH",
+    "airportOfDestination": "SKG",
+    "dateOfDeparture": "15/08/2023",
+    "availableTicketsEconomy": "25",
+    "availableTicketsBusiness": "10",
+    "valueTicketEconomy": "90",
+    "valueTicketBusiness": "120"
+}
+{
+    "airportOfOrigin": "ATH",
+    "airportOfDestination": "CFU",
+    "dateOfDeparture": "09/08/2023",
+    "availableTicketsEconomy": "13",
+    "availableTicketsBusiness": "14",
+    "valueTicketEconomy": "150",
+    "valueTicketBusiness": "200"
+}
+

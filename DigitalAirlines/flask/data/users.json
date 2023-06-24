@@ -1,0 +1,45 @@
+{
+    "name":"Ioanna", 
+    "surname":"Rentifi", 
+    "email":"ioanna.rent@gmail.com",
+    "password":"pao13",
+    "dateOfBirth":"22/09/2002",
+    "country":"Greece",
+    "passportNumber":"123456",
+    "username":"IonannaRentifi123",
+    "type":"user"
+}
+{
+    "name":"Panagiotis", 
+    "surname":"Giannakopoulos", 
+    "email":"panosyia@gmail.com",
+    "password":"olym07",
+    "dateOfBirth":"02/04/2002",
+    "country":"Greece",
+    "passportNumber":"223456",
+    "username":"PanagiotisGiannakopoulos223",
+    "type":"user"
+}
+{
+    "name":"Agli", 
+    "surname":"Kupe", 
+    "email":"kupere@yahoo.com",
+    "password":"p@pi",
+    "dateOfBirth":"10/10/2002",
+    "country":"Albania",
+    "passportNumber":"127456",
+    "username":"AgliKupe127",
+    "type":"admin"
+}
+{
+    "name":"Magda",
+    "surname":"Tomazani", 
+    "email":"magdatoma@gmail.com",
+    "password":"P@ssword",
+    "dateOfBirth":"19/12/2001",
+    "country":"Greece",
+    "passportNumber":"199456",
+    "username":"MagdaTomazani199",
+    "type":"admin"
+}
+

@@ -1,0 +1,22 @@
+{ 
+    "airportOfOrigin": "ATH",
+    "airportOfDestination": "CFU", 
+    "dateOfDeparture": "09/08/2023",
+    "name": "Ioanna",
+    "surname": "Rentifi",
+    "passportNumber": "123456",
+    "dateOfBirth": "22/09/2002",
+    "email": "ioanna.rent@gmail.com",
+    "typeOfTicket": "economy"
+}
+{
+    "airportOfOrigin": "ATH",
+    "airportOfDestination": "SKG",
+    "dateOfDeparture": "15/08/2023",
+    "name": "Panagiotis",
+    "surname": "Giannakopoulos",
+    "passportNumber": "223456",
+    "dateOfBirth": "02/04/2002",
+    "email": "panosyia@gmail.com",
+    "typeOfTicket": "business"
+}
